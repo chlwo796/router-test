@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 얕은복사 vs 깊은복사
+        // 얕은복사 : 메모리참조x
+        // ... = 깊은복사, 메모리참조
+        const p = {
+            a : 1
+        }
+        const b = {...p, b:2}
+
+        // 
+        p.a = 2;
+        alert(b.a);
+        alert(b.b);
+    </script>
+</body>
+</html>
