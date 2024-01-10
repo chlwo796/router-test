@@ -36,6 +36,12 @@ export const Menu = ()=>{
                 <Nav.Item>
                     <Nav.Link href="/carousel">슬라이드</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/arcodian">아코디언</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/badge">뱃지</Nav.Link>
+                </Nav.Item>
             </Nav>
             <h3>A</h3>
             <a href="/">홈</a> &nbsp;
@@ -50,7 +56,9 @@ export const Menu = ()=>{
             <Link to="/grid2">그리드2</Link> &nbsp;
             <Link to="/boot">부트스트랩</Link> &nbsp;
             <Link to="/state">스테이트</Link> &nbsp;
-            <Link to="/contact">연락</Link>
+            <Link to="/contact">연락</Link> &nbsp;
+            <Link to="/arcodian">아코디언</Link> &nbsp;
+            <Link to="/badge">뱃지</Link>
         </div>
     )
 }

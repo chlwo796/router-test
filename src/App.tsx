@@ -11,8 +11,11 @@ import { Grid1 } from './components/grid1/Grid1';
 import { Grid2 } from './components/grid2/Grid2';
 import { Boot } from './components/Boot';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.js'
 import { AlertTest } from './components/AlertTest';
 import { CarouselTest } from './components/CarouselTest';
+import { Arcodian } from './components/Arcodian';
+import { Badge } from './components/Badge';
 
 function App() {
   return (
@@ -30,6 +33,8 @@ function App() {
           <Route path='/boot' element={<Boot/>}></Route>
           <Route path='/alert' element={<AlertTest/>}></Route>
           <Route path='/carousel' element={<CarouselTest/>}></Route>
+          <Route path='/arcodian' element={<Arcodian/>}></Route>
+          <Route path='/badge' element={<Badge/>}></Route>
         </Routes>
         </BrowserRouter>
     </div>
