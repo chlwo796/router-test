@@ -42,6 +42,9 @@ export const Menu = ()=>{
                 <Nav.Item>
                     <Nav.Link href="/badge">뱃지</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/card">카드</Nav.Link>
+                </Nav.Item>
             </Nav>
             <h3>A</h3>
             <a href="/">홈</a> &nbsp;

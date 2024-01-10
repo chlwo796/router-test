@@ -16,6 +16,7 @@ import { AlertTest } from './components/AlertTest';
 import { CarouselTest } from './components/CarouselTest';
 import { Arcodian } from './components/Arcodian';
 import { Badge } from './components/Badge';
+import { Card } from './components/Card';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path='/carousel' element={<CarouselTest/>}></Route>
           <Route path='/arcodian' element={<Arcodian/>}></Route>
           <Route path='/badge' element={<Badge/>}></Route>
+          <Route path='/card' element={<Card/>}></Route>
         </Routes>
         </BrowserRouter>
     </div>
